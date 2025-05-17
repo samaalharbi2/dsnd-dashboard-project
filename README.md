@@ -1,8 +1,23 @@
 
-# Software Engineering for Data Scientists 
+# Employee Retention Analytics Dashboard
 
-This repository contains starter code for the **Software Engineering for Data Scientists** final project. Please reference your course materials for documentation on this repository's structure and important files. Happy coding!
+## 📌 Overview
+A comprehensive solution for monitoring employee performance and predicting attrition risk, consisting of:
+- **Python API** for accessing employee event data
+- **Interactive Dashboard** for visualization
+- **ML Integration** for recruitment risk prediction
 
+## 🛠 Technologies Used
+| Category        | Technologies                          |
+|-----------------|---------------------------------------|
+| Backend         | Python 3.8+, FastAPI, SQLite         |
+| Data Processing | Pandas, NumPy                        |
+| Visualization   | Matplotlib, FastHTML                 |
+| Machine Learning| Scikit-learn (pickle model)          |
+| Testing         | Pytest, GitHub Actions               |
+| Infrastructure  | GitHub, Uvicorn (ASGI server)        |
+
+## 🏗 Project Structure
 ### Repository Structure
 ```
 ├── README.md
@@ -79,3 +94,17 @@ erDiagram
   employee ||--o{ employee_events : "employee_id"
   notes }o--o{ employee_events : ""
 ```
+
+## 🚀 Installation & Setup
+1. Clone repository:
+   git clone [repository-url]
+   cd [repository-name]
+2. Create virtual environment:
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+3. Install dependencies:
+   pip install -r requirements.txt
+4. Launch dashboard:
+    uvicorn report.dashboard:app --reload
+
