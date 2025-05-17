@@ -96,13 +96,12 @@ erDiagram
 ```
 
 ## 🚀 Installation & Setup
-1. Clone repository:
+ 1. Clone repository:
     git clone [repository-url]
     cd [repository-name]
 2. Create virtual environment:
     python -m venv venv
-    source venv/bin/activate  # Linux/Mac
-    venv\Scripts\activate     # Windows
+    venv\Scripts\activate     
 3. Install dependencies:
     pip install -r requirements.txt
 4. Launch dashboard:
