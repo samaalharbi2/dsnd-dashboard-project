@@ -1,5 +1,5 @@
 
-# Employee Retention Analytics Dashboard
+# Software Engineering for Data Scientists
 
 ## 📌 Overview
 A comprehensive solution for monitoring employee performance and predicting attrition risk, consisting of:
@@ -107,4 +107,4 @@ venv\Scripts\activate     # Windows
    pip install -r requirements.txt
 4. Launch dashboard:
     uvicorn report.dashboard:app --reload
-
+# Output: 
