@@ -107,4 +107,13 @@ venv\Scripts\activate     # Windows
    pip install -r requirements.txt
 4. Launch dashboard:
     uvicorn report.dashboard:app --reload
-# Output: 
+
+## 📊 Dashboard Screenshots
+
+### Individual Employee View
+![Individual Employee Dashboard](https://github.com/samaalharbi2/dsnd-dashboard-project/blob/main/employee.jpg)
+
+
+### Team Overview
+![Team Analytics Dashboard](https://github.com/samaalharbi2/dsnd-dashboard-project/blob/main/Team.jpg)
+
